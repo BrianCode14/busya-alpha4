@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  busya:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=production
+      - PORT=8000
+    restart: unless-stopped
+    # Volúmenes opcionales para desarrollo local
+    volumes:
+      - ./map-app.html:/app/map-app.html
+      - ./index.html:/app/index.html
+      - ./js:/app/js
+      - ./css:/app/css

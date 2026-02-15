@@ -1,0 +1,19 @@
+{
+  "name": "busya",
+  "version": "1.0.0",
+  "description": "App de transporte público en tiempo real con seguimiento de autobuses",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["transporte", "autobús", "tiempo-real", "geolocalización"],
+  "author": "Brian Demartin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  }
+}
