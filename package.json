@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "App de transporte público en tiempo real con seguimiento de autobuses",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
@@ -17,3 +16,4 @@
     "cors": "^2.8.5"
   }
 }
+
